@@ -1,5 +1,5 @@
 {% set name = "quantiphy" %}
-{% set version = "2.21" %}
+{% set version = "2.22" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
-  sha256: bf8d06ffa7150f69a5c7e3fb4a7a0a535109df85e7c0ab0f39fb317c5c9cafe0
+  sha256: db0d958321f566419b115519e17ea1782f84a92cb6d021906569edb8b60e9e18
 
 build:
   noarch: python
